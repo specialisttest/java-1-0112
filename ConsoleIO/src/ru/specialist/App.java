@@ -13,7 +13,7 @@ public class App {
 	{
 		
 //		BufferedReader reader = 
-//			new BufferedReader( new InputStreamReader(System.in) );
+//			new BufferedReader( new InputStreamReader(System.in, ) );
 //		
 //		System.out.print("Введите ваше имя: ");
 //		String name = reader.readLine();

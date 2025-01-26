@@ -144,6 +144,12 @@ public class App { // pascal notation
 			// строчный комментарий
 		
 		 */
+		
+		// utf-16
+		char ch = 'A';
+		ch = '\t';
+		ch = '\u002F';
+		System.out.println(ch);
 	}
 
 }
