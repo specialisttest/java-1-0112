@@ -55,6 +55,16 @@ public class App {
 		
 		return k2;
 	}
+	
+	public static int gcd(int k1, int k2, int k3) {
+		return gcd(gcd(k1, k2), k3);
+	}
+	public static int gcd(int k1, int k2, int k3, int k4) {
+		return gcd(gcd(k1, k2, k3), k4);
+	}
+	public static int gcd(int k1, int k2, int k3, int k4, int k5) {
+		return gcd(gcd(k1, k2, k3, k4), k5);
+	}
 
 	public static void sayHello() {
 		sayHello("Незнакомец");
@@ -118,6 +128,8 @@ public class App {
 		
 		
 		System.out.println( gcd( 462, 1071) );
+		
+		System.out.println( gcd( 462, 1071, 14) );
 		
 		
 
